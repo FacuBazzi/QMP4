@@ -2,7 +2,7 @@ package qmp4;
 
 import java.util.Map;
 
-public class CondicionClimatica {  // es un "traductor"
+public class CondicionClimatica {  // es un "traductor"  // singleton
 
 	public boolean esDeDia(Map<String, Object> clima) {
 		return (boolean) clima.get("IsDayLight");

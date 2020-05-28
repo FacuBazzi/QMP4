@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.List; 
 import java.util.stream.Collectors; 
 
-public class ControladorClima {
+public class ControladorClima {   // singleton
 	
 	ServicioClima servicioClima;
 	List<Map<String, Object>> climaProximas12Horas = new ArrayList<>();

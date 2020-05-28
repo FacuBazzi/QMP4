@@ -2,7 +2,7 @@ package qmp4;
 
 import java.util.*;
 
-public class GeneradorSugerencias {
+public class GeneradorSugerencias {  // singleton
 	
 	ControladorClima controladorClima;
 	
